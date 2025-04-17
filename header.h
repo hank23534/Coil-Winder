@@ -30,7 +30,7 @@ byte SlowEnd = 5;
 // enter any different wire gauges you use here
 // the values are slightly bigger than the wire diameter to ensure the winder 
 // doesn't wind over previous windings
-float AWGThirtyTwo = .265;
+float AWGThirtyTwo = .21;
 float AWGThirtyOne = .28;
 float AWGThirty = .3;
 float AWGTwentyThree = .6;
