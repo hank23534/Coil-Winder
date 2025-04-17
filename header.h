@@ -6,12 +6,20 @@
 
 // coil mold specifications: diameter, lenght, area.
 
-float CM1D = .0099; // unit in mm.
-float CM1l = .0165; // unit in mm.
+float CM1D = .0099; // unit in m.
+float CM1l = .0165; // unit in m.
 float CM1A = ((CM1D/2)*(CM1D/2))*3.14159;
 float CM1lmm = 16.5;
 
+float CM2D = .01485;
+float CM2l = .024;
+float CM2A = ((CM2D/2)*(CM2D/2))*3.14159;
+float CM2lmm = 24;
 
+float CM3D = .0198;
+float CM3l = .032;
+float CM3A = ((CM3D/2)*(CM3D/2))*3.14159;
+float CM3lmm =32;
 
 byte StepPinOne = 2;
 byte DirPinOne = 3;
