@@ -230,7 +230,18 @@ case '1':
   A = CM1A;
   lmm = CM1lmm;
   break;
-
+  case '2':
+  D = CM2D;
+  l = CM2l;
+  A = CM2A;
+  lmm = CM2lmm;
+  break;
+  case '3':
+  D = CM3D;
+  l = CM3l;
+  A = CM3A;
+  lmm = CM3lmm;
+  break;
 case 'C':
   A = ((D/2)*(D/2))*3.14159;
 
