@@ -1,23 +1,18 @@
 #include "header.h"
 #include "keypad.h" 
 #include "lcd.h" 
-#include <math.h> // have to keep for tangent
-
+#include <math.h> 
 
 
 
 
 /*
-Tacha Technology & Robotics Coil Winder V1
-
 A small program for a coil winder that uses an Arduino Mega 2560 and has the following features:
 - Ability to calulate turns from H
 - Ability to find at an angle theta 
 - Ability to support several coil molds aswell as custom coils
 - Ability to interface to keypad & LCD (terminal is functional however it has very few functions)
 - currently air core coils are supported however in version 2 the ability to choose different core materials will be added
-
-
 */
 
 
@@ -596,13 +591,7 @@ if(windatangle == true){
 else{
   wind(turns, AWG);
 }
-
-
-
-
-
-
-
+  
 }
 
 void loop() {
